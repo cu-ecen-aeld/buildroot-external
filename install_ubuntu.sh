@@ -1,3 +1,3 @@
 #!/bin/bash
 set -e
-sudo apt-get install qemu-system
+sudo apt-get install build-essential libssl-dev qemu-system
