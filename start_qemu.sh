@@ -1,2 +1,3 @@
 #!/bin/bash
-qemu-system-x86_64 -curses -drive format=raw,file=buildroot/output/images/project.hdimg
+DRIVE="-drive format=raw,file=buildroot/output/images/project.hdimg"
+qemu-system-x86_64 -curses ${DRIVE}
