@@ -4,7 +4,7 @@
 #
 ################################################################################
 
-ECEN5013_HELLO_WORLD_VERSION = 69aaa93a72dab2b905eb77b0cbed9efc71791577
+ECEN5013_HELLO_WORLD_VERSION = 452e6e18d1323df20a309e1e55300063d893777e
 ECEN5013_HELLO_WORLD_SITE = https://github.com/cu-ecen-5013/ecen5013-hello-world.git
 ECEN5013_HELLO_WORLD_SITE_METHOD = git
 
