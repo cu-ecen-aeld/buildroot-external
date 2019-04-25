@@ -2,7 +2,7 @@
 
 This is an example based project template for buildroot.  It uses an br2-external configuration
 file storage and the official buildroot repository as a git submodule.  Scripts are provided
-to make it easy to perform a build, save configuration, or start the build using qemu.
+to make it easy to perform a build, save configuration, or start the image using qemu.
 
 ## Installing Dependencies
 
@@ -14,8 +14,7 @@ page.
 
 Run `./build.sh` to build the image.  This script is currently hard-coded to use an x86_64 default
 build target config.  The config will only be updated when the .config file does not exist.  When pulling
-in configuration changes, delete the buildroot/.config file before running the build script.  This will require
-a complete rebuild.
+in configuration changes, delete the buildroot/.config file before running the build script.
 
 ## Starting Qemu
 
