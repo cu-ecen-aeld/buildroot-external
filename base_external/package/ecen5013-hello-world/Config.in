@@ -1,0 +1,5 @@
+config BR2_PACKAGE_ECEN5013_HELLO_WORLD
+	bool "ecen5823-hello-world"
+	help
+	  Hello world example for ECEN5013, used to introduce
+	  Buildroot external trees and package builds.
